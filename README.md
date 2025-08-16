@@ -22,8 +22,7 @@
 - ⚡ **Procesamiento optimizado** con OpenCV y Dlib
 - 🔒 **Sistema de acceso seguro** basado en biometría
 - 📊 **Detección de puntos faciales** (68 landmarks)
-- 🌐 **Comunicación serial** bidireccional
-- 🎛️ **Interfaz configurable** para diferentes dispositivos
+- 🌐 **Comunicación serial** 
 
 ## 🎬 Demo
 
@@ -68,7 +67,7 @@
 
 ### 1️⃣ Clonar el repositorio
 \`\`\`bash
-git clone https://github.com/tu-usuario/reconocimiento-facial.git
+git clone https://github.com/Erneswor/Reconocimiento-facial-con-python-y-ESP32-.git
 cd reconocimiento-facial
 \`\`\`
 
@@ -97,13 +96,3 @@ pip install numpy
 # Extraer archivos .bz2
 bunzip2 *.bz2
 \`\`\`
-
-## 🔧 Configuración
-
-### 📷 Configuración de Cámara
-```python
-# config.py
-CAMERA_INDEX = 0  # Cambiar si tienes múltiples cámaras
-FRAME_WIDTH = 640
-FRAME_HEIGHT = 480
-FPS = 30
