@@ -1,7 +1,7 @@
 // ======== CONFIGURACIÓN DE BLYNK ========
-#define BLYNK_TEMPLATE_ID "TMPL2md7hYcR4"
-#define BLYNK_TEMPLATE_NAME "FocoCopy"
-#define BLYNK_AUTH_TOKEN "nZagGJPH_bGR0mSx72giyQx4DO80iVVr"
+#define BLYNK_TEMPLATE_ID "TOKEN"
+#define BLYNK_TEMPLATE_NAME "NAME_PROYECT"
+#define BLYNK_AUTH_TOKEN "TOKEN"
 
 // ======== LIBRERÍAS ========
 #include <WiFi.h>
@@ -15,12 +15,10 @@
 char ssid[] = "UD4-Administrativo";
 char pass[] = "AdmonUPT";
 
-//char ssid[] = "INFINITUM52F8";
-//char pass[] = "nP2XU7uk7c";
 
 // ======== CONFIGURACIÓN TELEGRAM ========
-#define BOTtoken "8066175899:AAGLbSi6z1QkbzB9t79w4WSLUux-qb2t2tY" // Cambia por tu token
-#define CHAT_ID "6204349968"             // Cambia por tu chat ID
+#define BOTtoken "Token de telegram" // Cambia por tu token
+#define CHAT_ID "ID_ chat"             // Cambia por tu chat ID
 WiFiClientSecure client;
 UniversalTelegramBot bot(BOTtoken, client);
 
